@@ -34,6 +34,8 @@
 }
 .main_banner_second_text span {
   font-family: "Courier New", Courier, monospace;
+  font-size: 30px;
+
 }
 
 .user_container {
@@ -151,7 +153,7 @@ img {
   background-color: #fff;
   border-radius: 7px;
   height: 100%;
-  width: 50%;
+  width: 100%;
 }
 
 .personal_information_details {
@@ -159,13 +161,20 @@ img {
   height: 50%;
 }
 
-.personal_edit {
+.personal_edit_user {
   background-color: #fff;
   height: 100%;
+  width: 30%;
+  margin-right: 10px;
+  padding: 10px 20px;
+}
+.personal_edit_address_container {
+  background-color: #fff;
+  height: 100%;
+  width: 70%;
 
   padding: 10px 20px;
 }
-
 .header_edit {
   display: flex;
 }
@@ -348,4 +357,33 @@ img {
 @font-face {
   font-family: breathing;
   src: url(./breathing/Breathing.ttf);
+}
+
+
+@media only screen and (max-width: 1111px) {
+  .personal_information_sidebar {
+    flex: 0.3;
+  }
+@media only screen and (max-width: 1111px) {
+  .edit_details {
+    flex-direction: column;
+  }
+  .personal_edit_user {
+    width: 100%;
+  }
+  .personal_edit_address_container {
+    margin-top: 20px;
+    width: 100%;
+  }
+
+
+  .peronsal_information {
+   
+    height: 100%;
+  }
+}
+@media only screen and (max-width: 650px) {
+  .personal_information_sidebar {
+    flex: 0.38;
+  }
 }
