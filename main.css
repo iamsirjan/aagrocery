@@ -1,0 +1,351 @@
+.full_banner_ad {
+  width: 100%;
+  position: relative;
+  background-color: #fbfbf2;
+  height: 60vh;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.main_banner_image {
+  height: 100%;
+}
+.main_banner_image img {
+  height: 100%;
+  width: 100%;
+}
+.main_banner_text {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.main_banner_text span {
+  font-family: breathing;
+  font-weight: 500;
+  font-size: 50px;
+}
+.main_banner_text p {
+  font-family: "Courier New", Courier, monospace;
+  color: #757575;
+}
+.main_banner_second_text {
+  display: flex;
+  align-items: center;
+}
+.main_banner_second_text span {
+  font-family: "Courier New", Courier, monospace;
+}
+
+.user_container {
+  margin: 40px;
+}
+
+.user_image img {
+  height: 140px;
+  width: 140px;
+  border-radius: 100%;
+  cursor: pointer;
+}
+
+.user_info {
+  display: flex;
+  align-items: center;
+}
+.user_name {
+  display: flex;
+  flex-direction: column;
+  margin-left: 30px;
+}
+
+.recommendation_container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 100px;
+  flex-direction: column;
+}
+
+.recommendation_container span {
+  font-weight: 600;
+  font-size: 25px;
+}
+.recommended_items {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  margin-left: 10px;
+
+  background-color: #fff;
+  padding: 10px 20px 10px 20px;
+  cursor: pointer;
+  border-radius: 7px;
+}
+.recommended_items_image {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.recommended_items_image img {
+  height: 80px;
+  width: 80px;
+}
+.recommended_items_name {
+  margin-top: 10px;
+  text-align: center;
+}
+.recommended_items_name span {
+  font-weight: 100;
+  font-size: 14px;
+}
+.slider_container {
+  display: flex !important;
+}
+
+.slick-prev:before,
+.slick-next:before {
+  color: #09529b !important;
+}
+.slider {
+  width: 60%;
+  margin: 10px;
+}
+
+img {
+  width: 200px;
+  height: 200px;
+}
+.slick-prev:before,
+.slick-next:before {
+  font-family: "slick";
+  font-size: 20px;
+  line-height: 1;
+  opacity: 0.75;
+  color: gray !important;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.peronsal_information {
+  margin-top: 40px;
+  height: 400px;
+}
+
+.siderbar_menu li {
+  list-style: none;
+  font-weight: 200;
+  font-size: 16px;
+  margin-top: 25px;
+
+  cursor: pointer;
+}
+
+.peronsal_information {
+  display: flex;
+  justify-content: space-around;
+}
+
+.personal_information_sidebar {
+  flex: 0.2;
+  background-color: #fff;
+  border-radius: 7px;
+  height: 100%;
+  width: 50%;
+}
+
+.personal_information_details {
+  flex: 0.6;
+  height: 50%;
+}
+
+.personal_edit {
+  background-color: #fff;
+  height: 100%;
+
+  padding: 10px 20px;
+}
+
+.header_edit {
+  display: flex;
+}
+
+.header_edit span {
+  font-size: 14px;
+  font-weight: 600;
+  border-right: 1px solid #e5e5e5;
+  padding-right: 6px;
+}
+.header_edit p {
+  padding-left: 6px;
+  height: 1px;
+  font-size: 14px;
+  color: blue;
+  cursor: pointer;
+}
+.personal_edit_body {
+  margin-top: 15px;
+}
+.personal_edit_body {
+  display: flex;
+  flex-direction: column;
+}
+.personal_edit_address {
+  display: flex;
+}
+.address_section {
+  margin-top: 15px;
+}
+.address_section span {
+  text-transform: capitalize;
+  color: #757575;
+  font-weight: 100;
+  font-size: 14px;
+}
+.address_details {
+  display: flex;
+  flex-direction: column;
+  margin-top: 10px;
+}
+.address_details span {
+  font-size: 14px;
+  font-weight: 600;
+  color: #000;
+  margin-bottom: 2px;
+}
+.address_details p {
+  font-size: 14px;
+  font-weight: 100;
+}
+
+.personal_information_sidebar button {
+  border: none;
+  outline: none;
+  background-color: #ff6b6b;
+  display: flex;
+  margin-top: 20px;
+  color: #fff;
+  align-items: flex-end;
+  justify-content: flex-end;
+  font-weight: 500;
+  border-radius: 11px;
+  padding: 20px 30px 20px 30px;
+}
+.logout_button {
+  position: absolute;
+  top: 10%;
+  right: 2%;
+}
+.logout_button button {
+  border: none;
+  outline: none;
+  background-color: #ff6b6b;
+  display: flex;
+  margin-top: 20px;
+  color: #fff;
+  align-items: flex-end;
+  justify-content: flex-end;
+  font-weight: 500;
+  border-radius: 11px;
+  padding: 20px 30px 20px 30px;
+}
+.personal_information_sidebar button:hover {
+  background-color: #78b500;
+  transition: 0.3s;
+}
+.logout_button button:hover {
+  background-color: #78b500;
+  transition: 0.3s;
+}
+
+.details_row {
+  display: flex;
+  flex-direction: column;
+}
+.edit_details {
+  display: flex;
+  height: 100%;
+
+  justify-content: space-between;
+}
+
+.details_info {
+  margin-top: 20px;
+  background-color: #fff;
+  height: 90%;
+  padding: 10px 20px;
+}
+.header_details {
+  display: flex;
+
+  justify-content: space-between;
+  font-size: 14px;
+  font-weight: 600;
+}
+.header_details span {
+  cursor: pointer;
+}
+.order_items {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 25px;
+}
+.items_icon {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.orders-icons {
+  font-size: 40px;
+}
+.items_icon span {
+  margin-top: 20px;
+}
+
+.footer_banner {
+  background-color: #2e645d;
+  background-image: url(https://d1tbibixn9n1cg.cloudfront.net/assets/our_story-78792dbed3b139430b5bd4ad22e87415.jpg);
+  background-position: 50% 30%;
+  background-size: cover;
+  color: #fff;
+  text-align: center;
+}
+.footer_banner_text {
+  display: flex;
+  min-height: 60vh;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.footer_banner_text p {
+  font-weight: 700;
+  text-align: center;
+  font-size: 35px;
+  font-family: Hack, sans-serif;
+  text-transform: uppercase;
+  background: linear-gradient(90deg, #fff, #fff, #fff);
+  letter-spacing: 3px;
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-repeat: no-repeat;
+  background-size: 80%;
+  animation: shine 8s linear infinite;
+  position: relative;
+}
+
+@keyframes shine {
+  0% {
+    background-position-x: -500%;
+  }
+  100% {
+    background-position-x: 500%;
+  }
+}
+
+/*  Checkout my other pens on  https://codepen.io/grohit/  */
+
+@font-face {
+  font-family: breathing;
+  src: url(./breathing/Breathing.ttf);
+}
