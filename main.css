@@ -9,6 +9,9 @@
 }
 .main_banner_image {
   height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 .main_banner_image img {
   height: 100%;
@@ -35,7 +38,6 @@
 .main_banner_second_text span {
   font-family: "Courier New", Courier, monospace;
   font-size: 30px;
-
 }
 
 .user_container {
@@ -133,7 +135,9 @@ img {
   margin-top: 40px;
   height: 400px;
 }
-
+.siderbar_menu {
+  padding-left: 10px;
+}
 .siderbar_menu li {
   list-style: none;
   font-weight: 200;
@@ -151,8 +155,7 @@ img {
 .personal_information_sidebar {
   flex: 0.2;
   background-color: #fff;
-  border-radius: 7px;
-  height: 100%;
+  padding: 0px;
   width: 100%;
 }
 
@@ -296,7 +299,7 @@ img {
 }
 .order_items {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   margin-top: 25px;
 }
 .items_icon {
@@ -306,6 +309,7 @@ img {
 }
 .orders-icons {
   font-size: 40px;
+  color: #ff6b6b;
 }
 .items_icon span {
   margin-top: 20px;
@@ -317,6 +321,7 @@ img {
   background-position: 50% 30%;
   background-size: cover;
   color: #fff;
+  width: 100%;
   text-align: center;
 }
 .footer_banner_text {
@@ -338,8 +343,8 @@ img {
   background-clip: text;
   -webkit-text-fill-color: transparent;
   background-repeat: no-repeat;
-  background-size: 80%;
-  animation: shine 8s linear infinite;
+  background-size: 100%;
+
   position: relative;
 }
 
@@ -359,11 +364,12 @@ img {
   src: url(./breathing/Breathing.ttf);
 }
 
-
 @media only screen and (max-width: 1111px) {
   .personal_information_sidebar {
     flex: 0.3;
   }
+}
+
 @media only screen and (max-width: 1111px) {
   .edit_details {
     flex-direction: column;
@@ -376,14 +382,129 @@ img {
     width: 100%;
   }
 
-
   .peronsal_information {
-   
     height: 100%;
   }
 }
+
 @media only screen and (max-width: 650px) {
   .personal_information_sidebar {
     flex: 0.38;
+  }
+}
+@media only screen and (max-width: 900px) {
+  .orders-icons {
+    font-size: 30px;
+  }
+  .items_icon span {
+    font-size: 16px;
+  }
+}
+
+@media only screen and (max-width: 700px) {
+  .order_items {
+    justify-content: space-between;
+  }
+  .items_icon span {
+    font-size: 12px;
+  }
+  .main_banner_image img {
+    height: 50%;
+    width: 50%;
+  }
+}
+
+@media only screen and (max-width: 1000px) {
+  .main_banner_second_text span {
+    font-size: 20px;
+  }
+  .main_banner_text p {
+    font-size: 12px;
+  }
+}
+
+@media only screen and (max-width: 800px) {
+  .main_banner_image img {
+    height: 85%;
+    width: 85%;
+  }
+  .main_banner_second_text span {
+    font-size: 18px;
+  }
+  .main_banner_text p {
+    font-size: 10px;
+  }
+}
+@media only screen and (max-width: 700px) {
+  .main_banner_image img {
+    height: 50%;
+    width: 80%;
+  }
+}
+
+@media only screen and (max-width: 560px) {
+  .main_banner_text span {
+    font-size: 30px;
+  }
+  .main_banner_image img {
+    height: 40%;
+    width: 80%;
+  }
+  .main_banner_second_text span {
+    font-size: 14px;
+  }
+  .main_banner_text p {
+    font-size: 10px;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  .main_banner_text span {
+    font-size: 30px;
+  }
+  .main_banner_image img {
+    height: 40%;
+    width: 80%;
+  }
+  .main_banner_second_text span {
+    font-size: 10px;
+  }
+  .main_banner_text p {
+    font-size: 10px;
+    margin-left: 2px;
+  }
+  .siderbar_menu li {
+    font-size: 12px;
+  }
+  .order_items span {
+    font-size: 10px;
+  }
+  .orders-icons {
+    font-size: 15px;
+  }
+  .address_details span {
+    font-size: 10px;
+  }
+  .address_details p {
+    font-size: 10px;
+  }
+  .address_section span {
+    font-size: 10px;
+  }
+  .header_edit span {
+    font-size: 10px;
+  }
+  .header_edit p {
+    font-size: 10px;
+  }
+  .personal_edit_body span {
+    font-size: 10px;
+  }
+
+  .personal_information_sidebar button {
+    padding: 20px 15px 20px 15px;
+  }
+  .items_icon span {
+    font-size: 8px;
   }
 }
