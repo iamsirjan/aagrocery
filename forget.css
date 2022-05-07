@@ -1,0 +1,83 @@
+.forget_password_container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 60vh;
+  width: 100%;
+}
+.form_container {
+  display: flex;
+  justify-content: center;
+  width: 35%;
+}
+.forget_password_form {
+  margin-left: 60px;
+}
+.forget_password_form span {
+  font-weight: 600;
+  font-size: 30px;
+  font-family: "Courier New", Courier, monospace;
+}
+.forget_password_left img {
+  height: 300px;
+  width: 300px;
+}
+.input_form {
+  margin-top: 30px;
+}
+
+.input_form input {
+  border: none;
+  margin-bottom: 10px;
+  outline: none;
+  padding: 10px;
+  font-family: "Courier New", Courier, monospace;
+  font-size: 16px;
+  background-color: #e5e5e5;
+  border-radius: 5px;
+}
+
+.input_form button {
+  border: none;
+  margin-top: 20px;
+  outline: none;
+  border-radius: 5px;
+  background-color: #78b500;
+  font-family: "Courier New", Courier, monospace;
+  font-weight: 600;
+  color: #fff;
+  padding: 10px;
+  display: flex;
+  width: 100%;
+  justify-content: center;
+}
+.input_form button:hover {
+  cursor: pointer;
+  background-color: #6f9b1e;
+  transition: 0.4s;
+}
+
+@media only screen and (min-width: 1750px) {
+  .input_form input {
+    width: 93%;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .form_container {
+    display: flex;
+    justify-content: center;
+  }
+  .forget_password_form {
+    margin-left: 0px;
+  }
+  .forget_password_container {
+    height: 30vh;
+  }
+  .forget_password_left {
+    display: none;
+  }
+}
+.link {
+  text-decoration: inherit;
+}
